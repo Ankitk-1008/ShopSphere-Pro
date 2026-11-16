@@ -1,0 +1,127 @@
+[
+  {
+    "number": 1,
+    "name": "Authentication and Authorization",
+    "slug": "auth",
+    "fields": [
+      "email",
+      "password_hash",
+      "role",
+      "is_active"
+    ]
+  },
+  {
+    "number": 2,
+    "name": "User Management",
+    "slug": "users",
+    "fields": [
+      "email",
+      "full_name",
+      "role",
+      "is_active"
+    ]
+  },
+  {
+    "number": 3,
+    "name": "Customer Registration",
+    "slug": "customer_registrations",
+    "fields": [
+      "user_id",
+      "phone",
+      "email_verified",
+      "registration_status"
+    ]
+  },
+  {
+    "number": 4,
+    "name": "Customer Profile Management",
+    "slug": "customer_profiles",
+    "fields": [
+      "user_id",
+      "first_name",
+      "last_name",
+      "phone",
+      "date_of_birth"
+    ]
+  },
+  {
+    "number": 5,
+    "name": "Address Management",
+    "slug": "addresses",
+    "fields": [
+      "user_id",
+      "address_type",
+      "line1",
+      "line2",
+      "city",
+      "state",
+      "postal_code",
+      "country",
+      "is_default"
+    ]
+  },
+  {
+    "number": 6,
+    "name": "Product Category Management",
+    "slug": "categories",
+    "fields": [
+      "name",
+      "slug",
+      "parent_id",
+      "description",
+      "is_active"
+    ]
+  },
+  {
+    "number": 7,
+    "name": "Brand Management",
+    "slug": "brands",
+    "fields": [
+      "name",
+      "description",
+      "website",
+      "is_active"
+    ]
+  },
+  {
+    "number": 8,
+    "name": "Product Management",
+    "slug": "products",
+    "fields": [
+      "name",
+      "description",
+      "sku",
+      "category_id",
+      "brand_id",
+      "base_price",
+      "is_active"
+    ]
+  },
+  {
+    "number": 9,
+    "name": "Product Variants",
+    "slug": "product_variants",
+    "fields": [
+      "product_id",
+      "sku",
+      "size",
+      "color",
+      "price",
+      "stock",
+      "is_active"
+    ]
+  },
+  {
+    "number": 10,
+    "name": "Product Images and Documents",
+    "slug": "product_media",
+    "fields": [
+      "product_id",
+      "variant_id",
+      "file_name",
+      "file_path",
+      "mime_type",
+      "file_size"
+    ]
+  }
+]
